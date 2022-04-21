@@ -95,7 +95,6 @@ class ImageUrls @Inject constructor() {
     )
     val map: Map<Int, String> = images.mapIndexed { index, s ->
         index + 1 to s
-
     }.toMap()
 }
 

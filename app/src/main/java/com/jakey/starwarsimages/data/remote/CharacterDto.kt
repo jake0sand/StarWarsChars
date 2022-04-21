@@ -1,13 +1,10 @@
 package com.jakey.starwarsimages.data.remote
 
-import android.os.Parcelable
-import com.jakey.starwarsimages.utils.HelperFuns.lastSegment
-import kotlinx.parcelize.Parcelize
 import java.io.Serializable
 
 data class CharacterDto(
     val url: String,
-    val id: String = lastSegment(url),
+    val id: Int? = 0,
     val birth_year: String,
     val films: List<String> = listOf(),
     val species: List<String> = listOf(),
@@ -16,8 +13,8 @@ data class CharacterDto(
     val homeworld: String,
     val mass: String,
     val name: String,
-    val image: String = imageUrl.images[id.toInt() - 1]
+    val image: String? = null
 ) : Serializable
 
-val imageUrl = ImageUrls()
+
 

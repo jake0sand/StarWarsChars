@@ -7,5 +7,6 @@ class Repository @Inject constructor(
     private val api: StarWarsApi
 ) {
     suspend fun getCharacters(page: Int) = api.getAllCharacter(page)
+    suspend fun getCharacterById(id: Int) = api.getCharacterById(id)
 
 }
