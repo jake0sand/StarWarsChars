@@ -4,5 +4,5 @@ data class CharacterLite(
     val id: Int,
     val imageUrl: String,
     val name: String,
-    val birthYear: String
+    val birthYear: String,
 )

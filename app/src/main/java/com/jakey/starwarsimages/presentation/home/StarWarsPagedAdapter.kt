@@ -40,13 +40,13 @@ class StarWarsPagedAdapter: PagingDataAdapter<CharacterLite, MyViewHolder>(diffC
                 crossfade(500)
             }
         }
-//        holder.itemView.setOnClickListener { mView ->
-//            val direction = currentCharacter?.let {
-//                HomeFragmentDirections
-//                    .actionHomeFragmentToDetailFragment(it.id)
-//            }
-//            direction?.let { mView.findNavController().navigate(it) }
-//        }
+        holder.itemView.setOnClickListener { mView ->
+            val direction = currentCharacter?.let {
+                HomeFragmentDirections
+                    .actionHomeFragmentToDetailFragment(it.id)
+            }
+            direction?.let { mView.findNavController().navigate(it) }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {

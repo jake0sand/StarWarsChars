@@ -14,7 +14,7 @@ data class CharacterDto(
     val mass: String,
     val name: String,
     val image: String? = null
-) : Serializable
+)
 
 
 

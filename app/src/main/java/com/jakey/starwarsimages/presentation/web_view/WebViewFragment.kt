@@ -6,10 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
+import android.widget.Toast
 import androidx.navigation.fragment.navArgs
 import com.jakey.starwarsimages.R
-import com.jakey.starwarsimages.data.remote.CharacterDto
-import com.jakey.starwarsimages.databinding.FragmentDetailBinding
 import com.jakey.starwarsimages.databinding.FragmentWebViewBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,7 +17,7 @@ class WebViewFragment : Fragment(R.layout.fragment_web_view) {
     private var _binding: FragmentWebViewBinding? = null
     private val binding get() = _binding!!
     private val wvArgs: WebViewFragmentArgs by navArgs()
-    private lateinit var character: CharacterDto
+    private var characterName: String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -34,7 +33,7 @@ class WebViewFragment : Fragment(R.layout.fragment_web_view) {
 
         setHasOptionsMenu(true)
 
-        character = wvArgs.charArgsWebView
+        characterName = wvArgs.charArgsName
 
         setUpWebView()
 
@@ -45,7 +44,7 @@ class WebViewFragment : Fragment(R.layout.fragment_web_view) {
         binding.webView.apply {
             webViewClient = WebViewClient()
 
-            loadUrl("https://en.wikipedia.org/wiki/${character.name}")
+            loadUrl("https://en.wikipedia.org/wiki/$characterName")
         }
 
     }
