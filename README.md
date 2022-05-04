@@ -4,6 +4,18 @@
 
 - MVVM Architecture
 
+- Android Jetpack
+  - Paging 3 with beautiful continuous scroll
+  - Constraint Layout
+  - Fragments
+  - LiveData
+  - ViewBinding
+  - RecyclerView
+    - StaggeredGridLayoutManager
+  - Constraint Layout
+  - Navigation Component
+  - SafeArgs
+
 - Single Activity w/ Fragments
 
 - Kotlin Coroutines
@@ -30,17 +42,7 @@
 
 - WebView for browsing internet within app.
 
-- Android Jetpack
-  - Paging 3 with beautiful continuous scroll
-  - Constraint Layout
-  - Fragments
-  - LiveData
-  - ViewBinding
-  - RecyclerView
-    - StaggeredGridLayoutManager
-  - Constraint Layout
-  - Navigation Component
-  - SafeArgs
+
 
         // Retrofit
         implementation 'com.squareup.retrofit2:retrofit:2.9.0'
