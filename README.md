@@ -1,8 +1,10 @@
 # StarWarsChars
 
---------------*Technologies/ libraries Utilised*--------------
+
 
 ![ezgif-2-dafb40ebb2](https://user-images.githubusercontent.com/79411811/166935540-a6f1b3f8-1740-45fb-908f-2273af5cad6d.gif)
+
+--------------*Technologies/ libraries Utilised*--------------
 
 - MVVM Architecture
 
