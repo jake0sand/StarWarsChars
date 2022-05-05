@@ -1,7 +1,5 @@
 # StarWarsChars
 
-
-
 ![ezgif-2-964a692927](https://user-images.githubusercontent.com/79411811/166941304-9a918f04-da43-4b02-a5c8-a847013697cd.gif)
 
 --------------*Technologies/ libraries Utilised*--------------
