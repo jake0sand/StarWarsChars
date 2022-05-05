@@ -42,6 +42,7 @@
 
 - WebView for browsing internet within app.
 
+![starwarsgif](https://user-images.githubusercontent.com/79411811/166935004-cb284cd6-2ef5-4288-9056-bbeb41e19b4b.gif)
 
 
         // Retrofit
