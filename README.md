@@ -2,8 +2,6 @@
 
 --------------*Technologies/ libraries Utilised*--------------
 
-![](https://drive.google.com/file/d/1d61a0LcDm1fMojsn9p4QnPXKjPFrEp78/view?usp=sharing)
-
 - MVVM Architecture
 
 - Android Jetpack
