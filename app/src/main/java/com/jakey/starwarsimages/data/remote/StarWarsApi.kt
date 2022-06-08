@@ -16,7 +16,7 @@ interface StarWarsApi {
 //    @GET("planets/{id}")
 //    suspend fun getPlanet(@Path("id") id: Int): Response<PlanetDto>
 //
-//    @GET("species/{id}")
-//    suspend fun getSpecies(@Path("id") id: Int): Response<SpeciesDto>
+    @GET("species/{id}")
+    suspend fun getSpecies(@Path("id") id: Int): Response<SpeciesDto>
 
 }

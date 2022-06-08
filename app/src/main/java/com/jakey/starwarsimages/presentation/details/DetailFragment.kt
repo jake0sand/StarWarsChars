@@ -58,13 +58,9 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     private fun populateUi(characterDetails: Character) {
         binding.apply {
             tvBirthyearDetail.text = "Born: ${characterDetails.birth_year}"
-            tvFilmsDetail.text = "Appearances: ${characterDetails.films}" //TODO fix later
             tvGenderDetail.text = "Gender: ${characterDetails.gender}"
             tvHeightDetail.text = "Height (cm): ${characterDetails.height}"
-            tvHomeworldDetail.text =
-                "Homeworld: ${characterDetails.homeworld}TODO homeworld" //TODO fix later
             tvMassDetail.text = "Mass (kg): ${characterDetails.mass}"
-            tvSpeciesDetail.text = "Species: ${characterDetails.species} TODO species" //TODO fix later
             tvNameDetail.text = "Name: ${characterDetails.name}"
             ivDetail.load(characterDetails.image)
 
