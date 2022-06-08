@@ -40,10 +40,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         loadingData()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.options_menu, menu)
-    }
-
     private fun loadingData() {
         lifecycleScope.launch {
             viewModel.listData.collect { pagingData ->

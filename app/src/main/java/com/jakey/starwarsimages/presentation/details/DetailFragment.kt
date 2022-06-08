@@ -72,6 +72,8 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         }
     }
 
+
+
     override fun onDestroy() {
         super.onDestroy()
         _binding = null

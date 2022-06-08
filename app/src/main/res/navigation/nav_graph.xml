@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.jakey.starwarsimages.presentation.details.DetailFragment"
-        android:label="All Characters"
+        android:label="Details"
         tools:layout="@layout/fragment_detail" >
         <action
             android:id="@+id/action_detailFragment_to_webViewFragment"
